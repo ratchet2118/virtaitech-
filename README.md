@@ -67,6 +67,15 @@ cd /stable-diffusion-webui/ && python launch.py --deepdanbooru --share --xformer
 </p>
 单击界面右侧的端口，复制外部访问的链接打开，若不行则开启浏览器的“无痕浏览模式”或切换Microsoft Edge访问。
 
+<h3>第5步，使用模型：</h3><br>
+<p align="left">
+  <img width="800" alt="sd_web 6c58161d" src="https://github.com/ratchet2118/virtaitech-/assets/128948504/8f8eec66-0629-4b26-b777-3af56dcfd946">
+</p>
+ “Prompt”栏中输入的关键词为想要生成的内容，“Negative prompt”中输入的关键词为不想出现的内容。<br>
+可在下方调整生成图片的一系列参数：Sampling method--采样方法不同模型适配的方法不一样，一般大同小异；Sampling steps--采样步数diffusion step步数，一般取值在[10.20]，小于10效果太差，大于20提升不明显，但是为了最求极致也可以设置更高(如40)；Width\Height--分辨率生成的图片分辨率。默认512*512，但是太小。太小会限制模型发挥:也不要太大，太大跑不动。Batch size--每批数量bs，多了爆显存。
+
+
+
 
 
 
