@@ -74,6 +74,28 @@ cd /stable-diffusion-webui/ && python launch.py --deepdanbooru --share --xformer
  “Prompt”栏中输入的关键词为想要生成的内容，“Negative prompt”中输入的关键词为不想出现的内容。<br>
 可在下方调整生成图片的一系列参数：Sampling method--采样方法不同模型适配的方法不一样，一般大同小异；Sampling steps--采样步数diffusion step步数，一般取值在[10.20]，小于10效果太差，大于20提升不明显，但是为了最求极致也可以设置更高(如40)；Width\Height--分辨率生成的图片分辨率。默认512*512，但是太小。太小会限制模型发挥:也不要太大，太大跑不动。Batch size--每批数量bs，多了爆显存。
 
+<h3>更换模型</h3><br>
+Stable Diffusion 部署后，默认只有一个模型可选择和使用，参考如下步骤，加载更多模型：<br>
+1、	切回JupyterLAB界面（切勿关闭部署时的网页终端页面）<br>
+2、	单击 + new Launcher，随后在新的 Launcher 页单击 Terminal，新建终端。<br>
+<p align="left">
+  <img width="800" alt="sd_newTerminal 9f538a8f" src="https://github.com/ratchet2118/virtaitech-/assets/128948504/8f4914f2-14a9-40cb-ae41-7776cf6024ae">
+</p>
+3、在新开的终端中执行如下命令：<br>
+ln -s /gemini/data-1/novelaileak/ /stable-diffusion-webui/models/Stable-diffusion/<br>
+4、返回Stable Diffusion 页面，刷新 checkpoint 下拉框，加载出更多模型：<br>
+<p align="left">
+  <img width="800" alt="sd_checkpointRefresh 3b021d99" src="https://github.com/ratchet2118/virtaitech-/assets/128948504/5a423c7d-da2d-4a6a-bc47-9df7cacf4a91">
+</p>
+
+<img width="800" alt="微信图片_20240709171101" src="https://github.com/ratchet2118/virtaitech-/assets/128948504/c8c0a2d1-546e-4e1a-85d5-8ef117ea2f05">
+
+刷新、更换模型可能耗费一定时间，stable diffusion运行一段时间后，注意“网页终端”里是否出现报错：Connection Reset By Peer! Try Refresh，此时需要刷新网页终端，重新运行程序，复制并打开新的链接
+<p align="left">
+  <img width="800" alt="image" src="https://github.com/ratchet2118/virtaitech-/assets/128948504/a321ffe8-62db-4ecf-bffd-d4346a2f5dce">
+</p>
+
+
 
 
 
