@@ -35,6 +35,9 @@
   <img width="800" alt="高级设置指示1" src="https://github.com/ratchet2118/virtaitech-/assets/128948504/2436f043-9622-4ac9-80ca-e48543dc54ab">
 </p>
 
+点开后按照如下方式来设置即可：
+<img width="800" alt="微信图片_20240709155307" src="https://github.com/ratchet2118/virtaitech-/assets/128948504/768c450b-e73b-421d-b89d-7a44f6da9195">
+
 
 
 
