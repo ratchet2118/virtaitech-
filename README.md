@@ -12,8 +12,20 @@
 </p>
 
 <h3>第3步，初始化开发环境：<br></h3>
-创建好项目后，在初始化开发环境界面中按照如下要求配置开发环境：资源配置：选择 基础版 中 B1.small。
-<img width="800" alt="微信图片_20240709152130" src="https://github.com/ratchet2118/virtaitech-/assets/128948504/6f9bbaf1-894b-4089-8116-ce570744d6dc">
+创建好项目后，在初始化开发环境界面中按照下要求配置开发环境：
+资源配置：选择 基础版 中 B1.small。
+
+<p align="left">
+  <img width="800" alt="微信图片_20240709152130" src="https://github.com/ratchet2118/virtaitech-/assets/128948504/6f9bbaf1-894b-4089-8116-ce570744d6dc">
+</p>
+
+镜像：选择 公开 镜像AUTOMATIC1111/stable-diffusion-webui (作者为“趁动云小助手”)
+<p align="left">
+  <img width="800" alt="微信图片_20240709153103" src="https://github.com/ratchet2118/virtaitech-/assets/128948504/2b15d4d4-30e6-4890-b1f9-bbff3597b7ab">
+</p>
+
+
+
 
 
 
