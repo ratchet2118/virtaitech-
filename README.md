@@ -36,7 +36,22 @@
 </p>
 
 点开后按照如下方式来设置即可：
-<img width="800" alt="微信图片_20240709155307" src="https://github.com/ratchet2118/virtaitech-/assets/128948504/768c450b-e73b-421d-b89d-7a44f6da9195">
+<p align="left">
+  <img width="800" alt="微信图片_20240709155307" src="https://github.com/ratchet2118/virtaitech-/assets/128948504/768c450b-e73b-421d-b89d-7a44f6da9195">
+</p>
+“自动停止”选择8小时，“开放端口”默认为“TCP”，“内部端口”输入“7860”，备注为 “网页形式访问 Stable Diffusion”。<br>
+上述都配置好后，点击界面右下角的“立即启动”
+
+<h3>第4步，运行代码：</h3><br>
+
+环境配置好后，单击界面右上角的“进入开发环境”，默认进入 JupyterLab 页面。
+<p align="left">
+  <img width="800" alt="case_envIn 70fe9289" src="https://github.com/ratchet2118/virtaitech-/assets/128948504/4d2abdbf-a65c-4887-9b35-4fb5c343f597">
+</p>
+
+在顶部单击“网页终端”，切换到“网页终端”界面后输入下面的指令：<br>
+cd /stable-diffusion-webui/ && python launch.py --deepdanbooru --share --xformers --listen
+
 
 
 
