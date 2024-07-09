@@ -6,6 +6,11 @@
 <img width="800" alt="微信图片_20240709142219" src="https://github.com/ratchet2118/virtaitech-/assets/128948504/11830c05-8b8b-427e-b9c5-029dafe57cba">
 
 <h3>第2步，创建项目：<br></h3>
+登录后单击界面右上角的创建项目，“项目名称栏”输入“stable diffusion”，“项目描述”可输入“部署“stable diffusion”。之后点击“确定”
+<p align="left">
+  <img src="https://github.com/ratchet2118/virtaitech-/assets/128948504/18392685-a7cd-4d08-8e9d-f9c315e0475e" alt="yolo_projCreate" width="800"/>
+</p>
+
 
 
 
