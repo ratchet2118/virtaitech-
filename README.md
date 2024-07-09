@@ -51,6 +51,24 @@
 
 在顶部单击“网页终端”，切换到“网页终端”界面后输入下面的指令：<br>
 cd /stable-diffusion-webui/ && python launch.py --deepdanbooru --share --xformers --listen
+<p align="left">
+  <img width="800" alt="chatglm-6_inTerminal 47d6e444" src="https://github.com/ratchet2118/virtaitech-/assets/128948504/44433b76-d86b-42ce-a912-271f714c54a4">
+</p>
+
+情况1：代码运行结果显示出网址，如下所示：<br>
+<p align="left">
+  <img width="800" alt="sd_publicUrl d6f63e28" src="https://github.com/ratchet2118/virtaitech-/assets/128948504/4e5a1956-d721-4fc0-8779-054d32105423">
+</p>
+即可直接复制网址访问；<br>
+
+情况2：运行后不显示网址，如下所示：<br>
+<p align="left">
+  <img width="800" alt="端口指示" src="https://github.com/ratchet2118/virtaitech-/assets/128948504/6edc9fc6-819b-4afc-ab30-721ca1cd7150">
+</p>
+单击界面右侧的端口，复制外部访问的链接打开，若不行则开启浏览器的“无痕浏览模式”或切换Microsoft Edge访问。
+
+
+
 
 
 
