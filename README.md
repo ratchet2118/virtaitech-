@@ -24,6 +24,20 @@
   <img width="800" alt="微信图片_20240709153103" src="https://github.com/ratchet2118/virtaitech-/assets/128948504/2b15d4d4-30e6-4890-b1f9-bbff3597b7ab">
 </p>
 
+数据选择公开 下的 stable-diffusion-models（作者均为“趋动云小助手”）
+<img width="800" alt="微信图片_20240709153734" src="https://github.com/ratchet2118/virtaitech-/assets/128948504/47b99857-316b-4969-92a8-59375f77a3de">
+
+<h3>注意！</h3>点击“公开”选项，否则看不到此镜像、数据集。<br>
+带有红星号（镜像的）的必添加1个（镜像）模型、数据、标签等根据不同项目选择性添加。<br>
+之后配置高级设置，下拉网页可找到“高级设置”<br>
+
+<p align="left">
+  <img width="800" alt="高级设置指示1" src="https://github.com/ratchet2118/virtaitech-/assets/128948504/2436f043-9622-4ac9-80ca-e48543dc54ab">
+</p>
+
+
+
+
 
 
 
